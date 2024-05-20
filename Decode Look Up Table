@@ -1,0 +1,29 @@
+char Decode(String S){
+  if (S == ".-"){return 'A';}
+  else if (S =="-..."){return 'B';}
+  else if (S =="-.-."){return 'C';}
+  else if (S =="-.."){return 'D';}
+  else if (S =="."){return 'E';}
+  else if (S =="..-."){return 'F';}
+  else if (S =="--."){return 'G';}
+  else if (S =="...."){return 'H';}
+  else if (S ==".."){return 'I';}
+  else if (S ==".---"){return 'J';}
+  else if (S =="-.-"){return 'K';}
+  else if (S ==".-.."){return 'L';}
+  else if (S =="--"){return 'M';}
+  else if (S =="-."){return 'N';}
+  else if (S =="---"){return 'O';}
+  else if (S ==".--."){return 'P';}
+  else if (S =="--.-"){return 'Q';}
+  else if (S ==".-."){return 'R';}
+  else if (S =="..."){return 'S';}
+  else if (S =="-"){return 'T';}
+  else if (S =="..-"){return 'U';}
+  else if (S =="...-"){return 'V';}
+  else if (S ==".--"){return 'W';}
+  else if (S =="-..-"){return 'X';}
+  else if (S =="-.--"){return 'Y';}
+  else if (S =="--.."){return 'Z';}
+  else if (S =="*"){return' ';}
+}
